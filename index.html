@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Collectif Urbain — Photographie de rue</title>
+  <meta name="description" content="Collectif de photographes urbains : street, architecture, nuit, portraits. Site accessible (WCAG 2.1 AA)." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#contenu">Aller au contenu</a>
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <a class="logo" href="index.html">Collectif <span aria-hidden="true">Urbain</span><span class="sr-only">Urbain</span></a>
+      <button id="menuBtn" class="menu-btn" aria-controls="nav" aria-expanded="false">Menu</button>
+      <nav id="nav" class="nav" aria-label="Navigation principale">
+        <ul>
+          <li><a aria-current="page" href="index.html">Accueil</a></li>
+          <li><a href="about.html">Le Collectif</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenu" class="main" role="main">
+    <section class="hero container" aria-labelledby="hero-title">
+      <h1 id="hero-title">Capturer l’âme des villes.</h1>
+      <p>Street photography, architectures graphiques et nuits fluorescentes — par un collectif de photographes urbains.</p>
+      <a class="btn" href="portfolio.html">Découvrir la sélection</a>
+    </section>
+
+    <section class="features container" aria-labelledby="section-atouts">
+      <h2 id="section-atouts">Notre approche</h2>
+      <ul class="cards" role="list">
+        <li class="card">
+          <h3>Street & Candid</h3>
+          <p>Moments bruts, storytelling spontané, respect des personnes et des lieux.</p>
+        </li>
+        <li class="card">
+          <h3>Ville & Structure</h3>
+          <p>Lignes, textures et géométries urbaines — du crépuscule à l’aube.</p>
+        </li>
+        <li class="card">
+          <h3>Accessibilité</h3>
+          <p>Site conforme WCAG 2.1 AA : contrastes, clavier, textes alternatifs, hiérarchie.</p>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-inner">
+      <p>&copy; 2025 Collectif Urbain — Tous droits réservés.</p>
+      <ul class="footer-links" role="list">
+        <li><a href="accessibilite.html">Déclaration d’accessibilité</a></li>
+        <li><a href="contact.html#support">Support</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="js/script.js" defer></script>
+</body>
+</html>
